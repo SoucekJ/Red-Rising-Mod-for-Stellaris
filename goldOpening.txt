@@ -1,0 +1,103 @@
+namespace = gold
+
+country_event = {
+	id = gold.1
+	title = "gold.1.name"
+	desc = "gold.1.desc"
+	picture = GFX_evt_satellite_in_orbit
+	fire_only_once = yes
+	show_sound = event_sensor_ping
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+		has_ethic = ethic_fanatic_authoritarian
+		no_ai = yes
+	}
+
+	immediate = {
+		create_leader = {
+			type = Admiral
+			species = owner_main_species
+			name = "The Ash Lord"
+			gender = male
+			skill = 2000
+			traits = {
+				trait = leader_trait_fleet_logistician
+			}
+		}
+
+		create_leader = {
+			type = Admiral
+			species = owner_main_species
+			gender = male
+			name = "Darrow au Andromedus"
+			skill = 1500
+			traits = {
+				trait = leader_trait_trickster
+			}
+		}
+		
+		create_leader = {
+			type = General
+			species = owner_main_species
+			gender = male
+			name = "Lorn au Acros"
+			skill = 2000
+			traits = {
+				trait = leader_trait_butcher
+			}
+		}
+		
+		create_leader = {
+			type = Admiral
+			species = owner_main_species
+			gender = male
+			name = "Roque au Fabii"
+			skill = 1500
+			traits = {
+				trait = leader_trait_fleet_logistician
+			}
+		}
+		
+		create_leader = {
+			type = Governor
+			species = owner_main_species
+			gender = male
+			name = "Adrius au Augustus"
+			skill = 1500
+			traits = {
+				trait = leader_trait_intellectual
+			}
+		}
+		
+		create_leader = {
+			type = Governor
+			species = owner_main_species
+			gender = male
+			name = "Nero au Augustus"
+			skill = 2000
+			traits = {
+				trait = leader_trait_iron_fist
+			}
+		}
+		
+		create_leader = {
+			type = Governor
+			species = owner_main_species
+			gender = male
+			name = "Revus au Raa"
+			skill = 2000
+			traits = {
+				trait = leader_trait_agrarian_upbringing
+			}
+		}
+		
+		}
+	option = {
+		name = gold.1.a
+		add_influence = 100
+	}
+}
