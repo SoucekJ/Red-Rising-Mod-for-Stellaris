@@ -1,0 +1,14 @@
+﻿l_english:
+ 
+
+redrising_system_initializer_NAME:0 "Red Rising Mod"
+redrising_system_initializer_DESC:0 "For 700 years, the Golds have ruled over the lower castes such as Reds. Take control of the Society. Shall the Gold rule or the Reds rise against their oppressors? You decide."
+
+#################
+# Custom traits
+#################
+trait_gold:0 "Gold"
+trait_gold_desc:0 "Golds are small in number, however they are harden for any environment"
+trait_red:0 "Red"
+trait_red_desc:0 "Reds have been placed by the Society everywhere, therefore they can live anywhere. They also have a seperate culture compared to Golds"
+### End
